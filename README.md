@@ -6,7 +6,14 @@ The repository contains writing and review instructions, a journal-format snapsh
 
 ## Install
 
-Copy the `signal-processing-paper` directory into your Codex skills directory:
+Clone the repository, then copy the `signal-processing-paper` directory into your Codex skills directory:
+
+```powershell
+git clone https://github.com/berringtoni36-commits/signal-processing-paper-skill.git
+Copy-Item -Recurse .\signal-processing-paper-skill\signal-processing-paper "$env:USERPROFILE\.codex\skills\signal-processing-paper"
+```
+
+The final installed path is:
 
 ```text
 %USERPROFILE%\.codex\skills\signal-processing-paper
