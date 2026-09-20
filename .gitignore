@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.DS_Store
+Thumbs.db
+
+# Keep unpublished research materials out of the public skill repository.
+private/
+work/
+drafts/
+data/
+results/
+*.docx
+*.mat
+*.fig
+*.mlx

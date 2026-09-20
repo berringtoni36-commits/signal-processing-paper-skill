@@ -1,0 +1,4 @@
+interface:
+  display_name: "Signal Processing Paper"
+  short_description: "Draft and audit Signal Processing manuscripts"
+  default_prompt: "Use $signal-processing-paper to plan, draft, or audit my nonlinear adaptive signal-processing manuscript."
